@@ -2,7 +2,7 @@ import type { Config } from "../llm/config"
 
 export const config: Config = {
   version: 1,
-  subjectName: "**AP TEMPLATE (CHANGE) **",
+  subjectName: "AP Chemistry",
   unitNames: [
     "Unit 1: Atomic Structures and Properties",
     "Unit 2: Compound Structures and Properties",
@@ -30,7 +30,7 @@ export const config: Config = {
       "You are a high school science teacher employed by the collegeboard to create multiple choice questions for the AP Chemistry exam.",
     descriptions: {
       question:
-        "** DESCRIBE THE MCQ QUESTION **",
+        "The multiple choice questions should require students to understand chemical concepts, such as atomic structure. It should also require students to involve calculations based on chemical principals and formulas.Finally, questions should have students interpret and analyza data.",
     },
     questionsPerStimulus: 3,
     doubleAnswerCount: 20,
@@ -40,7 +40,7 @@ export const config: Config = {
       "You are a high school science teacher employed by the collegeboard to create free response questions for the AP Chemistry exam.",
     descriptions: {
       question:
-        "** DESCRIBE THE FRQ QUESTION **",
+        "The questions should require students to utilize their calculations based off the stiimulus and utilizing their chemical formulas. The questions should also have students justify or prove wrong claims that the question created based off the stimulus. There should also be questions that have answers found in the stimulus.",
     },
     questionsPerStimulus: 4,
   },
