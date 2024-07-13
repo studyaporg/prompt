@@ -2,7 +2,7 @@ import type { Config } from "../llm/config"
 
 export const config: Config = {
   version: 1,
-  subjectName: "**AP TEMPLATE (CHANGE) **",
+  subjectName: "AP Biology",
   unitNames: [
     "Unit 1: Chemistry of Life",
     "Unit 2: Cell Structure and Function",
